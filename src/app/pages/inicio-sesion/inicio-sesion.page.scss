@@ -2,14 +2,20 @@ ion-header{
     padding: 40px;
     text-align: center;
     background-color: rgb(51, 119, 245);
+    margin: 0%;
 }
 
-ion-toolbar{
-    background-color: rgb(53, 85, 231);
+.titulo{
+    background-color: rgb(51, 119, 245);
+    margin: 0;
 }
 
 ion-tittle{
     color: rgb(235, 231, 34);
+}
+
+.contenido{
+    background-color: rosybrown;
 }
 
 
