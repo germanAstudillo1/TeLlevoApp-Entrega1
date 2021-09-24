@@ -5,9 +5,20 @@ ion-header{
     margin: 0%;
 }
 
+
+.toolbar {
+  background-color: rgb(51, 119, 245)
+}
+
+
 .titulo{
     background-color: rgb(51, 119, 245);
     margin: 0;
+}
+
+.input{
+  margin-top: 60px;
+  opacity: 10%;
 }
 
 ion-tittle{
@@ -15,7 +26,13 @@ ion-tittle{
 }
 
 .contenido{
-    background-color: rosybrown;
+    background-color: white;
 }
 
+.centrado{
+  text-align: center;
+}
 
+.olvide{
+  text-align:center;
+}
