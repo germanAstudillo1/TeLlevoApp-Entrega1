@@ -21,8 +21,37 @@ const routes: Routes = [
     loadChildren: () => import('./pages/cambiar-password/cambiar-password.module').then( m => m.CambiarPasswordPageModule)
   },
   {
-    path: 'pasajero',
-    loadChildren: () => import('./pages/pasajero/pasajero.module').then( m => m.PasajeroPageModule)
+    path: 'inicio-pasajero',
+    loadChildren: () => import('./pages/inicio-pasajero/inicio-pasajero.module').then( m => m.InicioPasajeroPageModule)
+  },
+  {
+    path: 'auto-disponible',
+    loadChildren: () => import('./pages/auto-disponible/auto-disponible.module').then( m => m.AutoDisponiblePageModule)
+  },
+  {
+    path: 'viaje-solicitado-d',
+    loadChildren: () => import('./pages/viaje-solicitado-d/viaje-solicitado-d.module').then( m => m.ViajeSolicitadoDPageModule)
+  },
+
+  {
+    path: 'inicio-chofer',
+    loadChildren: () => import('./pages/inicio-chofer/inicio-chofer.module').then( m => m.InicioChoferPageModule)
+  },
+  {
+    path: 'chofer',
+    loadChildren: () => import('./pages/chofer/chofer.module').then( m => m.ChoferPageModule)
+  },
+  {
+    path: 'vehiculo-chofer',
+    loadChildren: () => import('./pages/vehiculo-chofer/vehiculo-chofer.module').then( m => m.VehiculoChoferPageModule)
+  },
+  {
+    path: 'notificacion',
+    loadChildren: () => import('./pages/notificacion/notificacion.module').then( m => m.NotificacionPageModule)
+  },
+  {
+    path: 'notificacion-pgr-chofer',
+    loadChildren: () => import('./pages/notificacion-pgr-chofer/notificacion-pgr-chofer.module').then( m => m.NotificacionPgrChoferPageModule)
   },
 
 ];

@@ -1,20 +1,32 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+<ion-header>
+  <div>
+    <ion-title class="titulo"><span style="color: white">TeLlevo</span><span style="color:yellow">App</span></ion-title>
+  </div>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <div class="contenido">
+    <div class="separacion">
+      <ion-item class="opacidad">
+        <ion-label>Bienvenid@ *Nombre de Usuario*</ion-label>
+      </ion-item>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+      <ion-item class="opacidad">
+        <ion-label color="primary">¿Como viajará hoy?</ion-label>
+      </ion-item>
+
+    </div>
+    <div class="boton">
+      <div class="centrado">
+        <ion-button color="warning" routerLink="/inicio-pasajero">Pasajero</ion-button>
+      </div>
+    </div>
+
+    <div class="boton">
+      <div class="centrado">
+        <ion-button color="warning" routerLink="/inicio-chofer">Chofer</ion-button>
+      </div>
+    </div>
+  
   </div>
-</ion-content>
+</ion-content>    
